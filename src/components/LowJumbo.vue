@@ -1,6 +1,7 @@
 <template>
    <div class="jumbotron">
          <ul>
+            <!-- lista link-promo -->
          <li id="digital">
             <img src="../assets/img/buy-comics-digital-comics.png" alt="">
             <a href="#">digital comics</a>

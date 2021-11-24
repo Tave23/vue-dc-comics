@@ -2,10 +2,12 @@
   <header>
      <div class="wrapper header">
         <div class="logo-header">
+           <!-- logo DC -->
            <img src="../assets/img/dc-logo.png" alt="">
         </div>
         <div class="menu-header">
            <ul>
+              <!-- ciclo for per i link del menu -->
               <li v-for="(link, index) in linksList" :key="index">
                  <a :class="{active: link.current}" :href="link.url">{{link.text}}</a>
               </li>

@@ -1,7 +1,7 @@
 <template>
    <div class="bg-link">
       <div class="wrapper linkUtili">
-
+<!-- prima colonna di link (DC COMICS-SHOP) -->
          <div class="first-column">
             <ul>
                <h3>dc comics</h3>
@@ -17,7 +17,7 @@
                </li>
             </ul>
          </div>
-
+<!-- seconda colonna di link (DC) -->
          <div class="second-column">
 
             <ul>
@@ -28,11 +28,11 @@
             </ul>
 
          </div>
-
+<!-- terza colonna di link (SITES) -->
          <div class="third-column">
 
             <ul>
-               <h3>DC</h3>
+               <h3>SITES</h3>
                <li v-for="(link, index) in sites" :key="index">
                   <a :href="link.url">{{link.text}}</a>
                </li>

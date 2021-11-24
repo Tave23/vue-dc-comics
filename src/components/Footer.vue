@@ -1,13 +1,13 @@
 <template>
   <footer>
      <div class="wrapper bottom-footer">
-
+<!-- bottone sign-up -->
          <div class="footer-btn">
             <a href="#">
                <button>sign-up now!</button>
             </a>
          </div> 
-
+<!-- link social -->
          <div class="footer-social">
             <a href="#">
                <h3>follow us</h3>
