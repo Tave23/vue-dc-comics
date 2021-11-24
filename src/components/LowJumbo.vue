@@ -57,12 +57,12 @@ export default {
    li img{
       width: 35px;
       margin-right: 10px;
+      cursor: pointer;
    }
 
    #shop img{
       width: 30px;
    }
-
 
    a{
       color: white;

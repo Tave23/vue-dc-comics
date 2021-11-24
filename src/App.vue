@@ -3,6 +3,7 @@
     <Header />
     <Main />
     <LowJumbo />
+    <UsefulLinks />
     <Footer />
   </body>
 </template>
@@ -12,6 +13,7 @@
 import Header from './components/Header.vue';
 import Main from './components/Main.vue';
 import LowJumbo from './components/LowJumbo.vue';
+import UsefulLinks from './components/UsefulLinks.vue';
 import Footer from './components/Footer.vue';
 
 
@@ -22,6 +24,7 @@ export default {
     Header,
     Main,
     LowJumbo,
+    UsefulLinks,
     Footer
   }
 }
