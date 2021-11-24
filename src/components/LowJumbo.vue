@@ -1,6 +1,6 @@
 <template>
    <div class="jumbotron">
-      <ul>
+         <ul>
          <li id="digital">
             <img src="../assets/img/buy-comics-digital-comics.png" alt="">
             <a href="#">digital comics</a>
@@ -38,6 +38,8 @@ export default {
       width: 100%;
       background: #0C7BEB;
       padding: 40px;
+      z-index: 998;
+      position: relative;
    }
 
    .jumbotron ul{

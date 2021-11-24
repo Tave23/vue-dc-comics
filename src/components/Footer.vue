@@ -1,6 +1,8 @@
 <template>
   <footer>
-     
+     <div class="wrapper">
+        ciao
+     </div>
   </footer>
 </template>
 
