@@ -129,7 +129,7 @@ export default {
 
    li:hover a,
    li:active a{
-      color: #0C7BEB;
+      color: $primary-color;
    }
 
 </style>
