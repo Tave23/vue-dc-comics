@@ -16,6 +16,7 @@ export default {
 <style scoped>
 
 main{
+   height: calc(100% - 365px - 120px - 80px - 70px);
    margin-top: 44px;
    width: 100vw;
    height: 200px;

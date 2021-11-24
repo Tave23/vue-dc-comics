@@ -35,6 +35,7 @@ export default {
 <style scoped>
 
    .jumbotron{
+      height: 120px;
       width: 100%;
       background: #0C7BEB;
       padding: 40px;

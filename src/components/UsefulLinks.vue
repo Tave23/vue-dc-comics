@@ -222,10 +222,15 @@ export default {
       text-transform: capitalize;
    }
 
+   li a:hover{
+      color: white;
+   }
+
    .first-column,
    .second-column,
    .third-column{
-      margin-right: 30px;
+      margin-right: 35px;
+      width: 15%;
    }
 
    .logo-dc{
@@ -237,11 +242,9 @@ export default {
    .logo-dc img{
       width: 100%;
       position: absolute;
-      top: -90px;
+      top: -50px;
       z-index: 997;
    }
-
-
 
 </style>
    
