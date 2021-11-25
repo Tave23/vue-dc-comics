@@ -40,8 +40,6 @@ export default {
       width: 100%;
       background: #0C7BEB;
       padding: 40px;
-      z-index: 998;
-      position: relative;
    }
 
    .jumbotron ul{
