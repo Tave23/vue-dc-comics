@@ -1,6 +1,7 @@
 <template>
   <body>
     <Header />
+    <Jumbotron />
     <Main :imgMain="mainImages" />
     <LowJumbo />
     <UsefulLinks />
@@ -11,6 +12,7 @@
 <script>
 
 import Header from './components/Header.vue';
+import Jumbotron from './components/Jumbotron.vue';
 import Main from './components/Main.vue';
 import LowJumbo from './components/LowJumbo.vue';
 import UsefulLinks from './components/UsefulLinks.vue';
@@ -18,14 +20,16 @@ import Footer from './components/Footer.vue';
 
 
 
+
 export default {
   name: 'App',
   components: {
     Header,
+    Jumbotron,
     Main,
     LowJumbo,
     UsefulLinks,
-    Footer
+    Footer,
   },
   data(){
     return{

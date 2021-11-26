@@ -1,5 +1,6 @@
 <template>
   <main>
+
       <div class="wrapper">
          <div class="img-container">
             <div 
@@ -11,6 +12,8 @@
 
             </div>
          </div>
+
+         l
       </div>
   </main>
 </template>
@@ -26,7 +29,6 @@ export default {
 <style scoped>
 
 main{
-   margin-top: 44px;
    width: 100vw;
    background-color: black;
    padding: 50px 0;
@@ -38,6 +40,7 @@ main h1{
 
 p{
    color: white;
+   font-size: 15px;
 }
 
 .img-container{

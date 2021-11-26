@@ -89,6 +89,7 @@ export default {
       height: 80px;
       width: 100vw;
       background-color: white;
+      margin-bottom: 43px;
    }
 
    .wrapper.header{
