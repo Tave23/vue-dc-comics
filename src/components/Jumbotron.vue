@@ -1,6 +1,5 @@
 <template>
   <div class="jumbotron">
-     
 
   </div>
 </template>
@@ -23,7 +22,7 @@ export default {
    background-size: cover;                     
    background-repeat: no-repeat;
    background-position: center center; 
-   
+
 }
    
 </style>
